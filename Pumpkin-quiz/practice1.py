@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 print("Hello")
-=======
 # NumberOne
 arrayOfString = eval(input())
 oddArray = []
@@ -19,6 +18,38 @@ lists = [list1] + [list2] + [list3] + [list4] + [list5]
 for index in range(5):
     strInput = strInput()
     
->>>>>>> d14f0fedbf6f12cda0919219c33f11ab1f89748f
 
 print("Hello crush")
+# Exercise2
+# number=str(123)
+# space=""
+# result=""
+# index=0
+# while index<len(number):
+#     row=""
+#     for value in range(int(number[index])):
+#         row+="-"
+#         space+=" "
+#     index+=1
+#     if index==len(number):
+#         result+=row
+#     else:
+#         result+=row+"\n"+space+"|\n"+space
+# print(result)
+
+# number=eval(input())
+# isNotFoundD=True
+# index=0
+# letter=input()
+# while isNotFoundD and index<len(number)-1:
+#     if number[index]=="D":
+#         if letter=="R":
+#             isNotFoundD=False
+#             number[index]='0'
+#             number[index+1]='D'
+#         elif letter=="L":
+#             isNotFoundD=False
+#             number[index]='0'
+#             number[index-1]="D"
+#     index+=1
+# print(number)
